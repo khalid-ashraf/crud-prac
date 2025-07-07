@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button";
 import UserDialog from "@/components/user-dialog";
 import UsersTable from "@/components/users-table";
-import { UserPlus } from "lucide-react";
 
 export default async function HomePage() {
   return (
