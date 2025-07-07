@@ -1,8 +1,6 @@
 import UserDialog from "@/components/user-dialog";
 import UsersTable from "@/components/users-table";
 
-export const dynamic = "force-dynamic";
-
 export default async function HomePage() {
   return (
     <div className='flex flex-col gap-4 max-w-7xl mx-auto p-4 md:p-24'>
